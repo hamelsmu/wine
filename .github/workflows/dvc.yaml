@@ -16,5 +16,5 @@ jobs:
           cat metrics.txt >> report.md
           cml-publish confusion_matrix.png --md >> report.md
           
-       - name: Setup tmate session
-         uses: mxschmitt/action-tmate@v2
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v2
